@@ -1,0 +1,78 @@
+#article {
+  margin: 0 auto;
+  background-image: url(/IMG/4907157.jpg);
+}
+#header {
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  max-height: 100px;
+  font-family: "Lexend Deca", sans-serif;
+}
+#me .saya {
+  font-family: "Hind", sans-serif;
+}
+#me .explain {
+  font-family: "Montserrat", sans-serif;
+}
+#experience {
+  font-family: "Hind", sans-serif;
+  text-align: center;
+}
+#experience1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#skill {
+  font-family: "Hind", sans-serif;
+}
+#skillset {
+  font-family: "Hind", sans-serif;
+}
+#contact {
+  font-family: "Montserrat", sans-serif;
+}
+#img {
+  display: flex;
+  /* background-color: aqua; */
+}
+img {
+  margin: 0 auto;
+}
+#skillset {
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+}
+#skillset .adobe {
+  border: 2px dotted black;
+}
+#skill {
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#me {
+  margin: 0 auto;
+  padding: 30px 30px 30px 30px;
+  display: grid;
+  text-align: center;
+  column-gap: 20 px;
+}
+.experience {
+  padding: 10px 10px 10px 10px;
+}
+#contact {
+  margin: 0 auto;
+  padding: 40px 40px 40px 40px;
+  display: grid;
+  text-align: center;
+  column-gap: 20 px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
