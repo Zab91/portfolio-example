@@ -1,6 +1,6 @@
 #article {
   margin: 0 auto;
-  background-image: url(/IMG/4907157.jpg);
+  background-image: url("./IMG/4907157.jpg");
 }
 #header {
   margin: 0 auto;
